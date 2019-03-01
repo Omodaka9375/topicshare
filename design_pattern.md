@@ -9,8 +9,8 @@ TopicShare Bounty uses two basic objects to simplify the management and access t
             uint256 fulfillmentAmount;  // The amount that a user gets paid for fulfilling a bounty
             uint256 balance;            // The amount of funds the bounty has available for fulfillment payouts
             string tweetText;           // The specific text used to check for a fulfillment
-			string topic;				// The specific text used to represent topic
-			string follows;				// The specific text used to represent number of followers requested
+		    string topic;		// The specific text used to represent topic
+		    string follows;		// The specific text used to represent number of followers requested
             bool bountyOpen;            // Bounty state machine, checking that the bounty is open
             mapping (bytes32 => bool) tweetsUsed; // Tweets already used to filfill the bounty
         }
